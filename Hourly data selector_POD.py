@@ -6,7 +6,7 @@ import tkinter as tk
 from tkinter import simpledialog
   
 
-# use glob to get all the csv files in the folder 
+# use glob to get all the csv files in the folder
 path = os.getcwd() 
 csv_files = glob.glob(os.path.join(path, "*.csv")) 
   
